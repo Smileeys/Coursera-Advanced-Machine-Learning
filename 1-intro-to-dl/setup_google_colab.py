@@ -78,6 +78,7 @@ def setup_week6():
     setup_common()
     download_github_code("week6/grading_utils.py")
     download_github_code("week6/utils.py")
+    download_github_code("https://raw.githubusercontent.com/Smileeys/Coursera-Advanced-Machine-Learning/master/1-intro-to-dl/week6/image_captioning.ipynb")
     import download_utils
     download_utils.download_week_6_resources("../readonly/week6")
     setup_keras()
